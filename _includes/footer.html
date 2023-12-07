@@ -1,3 +1,4 @@
+<center>
     {% if site.footer_fixed %}
     <footer class="fixed-bottom">
       <div class="container mt-0">
@@ -5,6 +6,8 @@
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
+      </div>
+      <div class="container">
         {%- if site.last_updated -%}
         Last updated: {{ "now" | date: '%B %d, %Y' }}.
         {%- endif %}
@@ -17,9 +20,14 @@
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
+        
+      </div>
+      <div class="container">
         {%- if site.last_updated -%}
         Last updated: {{ "now" | date: '%B %d, %Y' }}.
         {%- endif %}
       </div>
+      
     </footer>
     {%- endif %}
+</center>
