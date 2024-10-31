@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Engineering Master's student at **UC San Diego**.
+subtitle: 
 
 profile:
   align: right
